@@ -1,15 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./Components/Header";//! when we are importing a component then giving a file extension is not necessary.
-import Body from "./components/Body";
+import Body from "./Components/Body";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import RestaurantMenuBody from "./Components/RestaurantMenu";
+import RestaurantMenuBody from "./Components/RestaurantMenuBody";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
 import { Outlet } from "react-router-dom";
-import RestaurantMenuBody from "./RestaurantMenuBody";
-
+import RestaurantMenuBody from "./Components/RestaurantMenuBody";
 
 let AppLayout = () => {
   return (

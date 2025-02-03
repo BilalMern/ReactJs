@@ -6,7 +6,7 @@ let resCardData = [
       rating: "4.2",
       delivery: "30 MINS",
       price: "PKR 1000 FOR TWO",
-      Id: "123"
+      id: "123"
     },
     {
       img: (src =

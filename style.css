@@ -16,7 +16,7 @@
     border-bottom: 1.5px solid #787c80;
     border-radius: 15px;
     box-shadow: 0px 3px 30px;
-    
+
     
   }
   .logo img {
@@ -26,14 +26,16 @@
   
   .nav-items ul {
     display: flex;
+    text-decoration: none;
   }
   
   .nav-items ul li {
     list-style-type: none;
     padding: 35px;
     color: red;
-  
-    font-size: 20px;
+  text-decoration: none;
+list-style: none;
+font-size: 20px;
   }
   .red {
     color: #212529;
@@ -44,7 +46,6 @@
   .res-card {
     width: 200px;
     padding: 3px 3px 6px 3px;
-    border: 1px solid #212529;
     border-radius: 8px 8px 0 0;
     display: flex;
     flex-direction: column;
@@ -99,6 +100,7 @@
       grid-template-columns: repeat(5,223px);
       justify-content: center;
       gap: 30px;
+      margin-top: 10px;
   }
 
   .filter-btn{
@@ -107,11 +109,17 @@
     font-weight: bolder;
     padding: 3px;
     border-radius: 4px;
-    border: 2px solid red;
+    border: none;
     cursor: pointer;
   }
   .filter{
     display: flex;
     justify-content: center;  
     gap: 10px;
+    margin-top: 30px;
   }
+
+.list-style{
+  list-style: none;
+  text-decoration: none;
+}
